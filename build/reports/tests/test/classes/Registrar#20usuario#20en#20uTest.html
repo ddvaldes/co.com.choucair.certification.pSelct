@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Registrar usuario en uTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Registrar usuario en uTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Registrar usuario en uTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.733s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Utest"></a>
+<h3 class="failures">Utest</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
+	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
+	at stepdefinitions.ChoucairUTestStepDefinitions.daniela_desea_registrarse_en_la_plataforma_Utest(ChoucairUTestStepDefinitions.java:19)
+	at ✽.Daniela desea registrarse en la plataforma Utest(src/test/resources/features/choucair_reg_usuario.feature:8)
+</pre>
+</span>
+<span class="code">
+<pre>cucumber.runtime.junit.UndefinedThrowable: The step &quot;Daniela ingresa toda la informacioón requerida por la pagina&quot; is undefined
+</pre>
+</span>
+<span class="code">
+<pre>cucumber.runtime.junit.UndefinedThrowable: The step &quot;el registro se completa cuando aparece el Boton Complete Setup&quot; is undefined
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Utest</td>
+<td class="failures">0.733s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@545de5a4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@23c650a3
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@60222fd8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Utest:Given Daniela desea registrarse en la plataforma Utest, When Daniela ingresa toda la informacioón requerida por la pagina
+| strNombre | strApellido | strEmail | strMes | strDia | strAno | strCuidad | strCodPostal | strCuidad | strComputador | strVersion | strLenguaje | strDispositivo | strModelo | strSistema | strContrasena |
+| Daniela | Valdes | danieladayana.valdez2018@gmail.com | January | 12 | 2002 | Ibague | 730004 | Colombia | Windows | 11 | Spanish | Apple | Iphone 12 | iOS 15 | Palpito123&amp;% |, Then el registro se completa cuando aparece el Boton Complete Setup
+| strFinal |
+| Complete Setup |
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Utest:Given Daniela desea registrarse en la plataforma Utest, When Daniela ingresa toda la informacioón requerida por la pagina
+| strNombre | strApellido | strEmail | strMes | strDia | strAno | strCuidad | strCodPostal | strCuidad | strComputador | strVersion | strLenguaje | strDispositivo | strModelo | strSistema | strContrasena |
+| Daniela | Valdes | danieladayana.valdez2018@gmail.com | January | 12 | 2002 | Ibague | 730004 | Colombia | Windows | 11 | Spanish | Apple | Iphone 12 | iOS 15 | Palpito123&amp;% |, Then el registro se completa cuando aparece el Boton Complete Setup
+| strFinal |
+| Complete Setup |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Utest:Given Daniela desea registrarse en la plataforma Utest, When Daniela ingresa toda la informacioón requerida por la pagina
+| strNombre | strApellido | strEmail | strMes | strDia | strAno | strCuidad | strCodPostal | strCuidad | strComputador | strVersion | strLenguaje | strDispositivo | strModelo | strSistema | strContrasena |
+| Daniela | Valdes | danieladayana.valdez2018@gmail.com | January | 12 | 2002 | Ibague | 730004 | Colombia | Windows | 11 | Spanish | Apple | Iphone 12 | iOS 15 | Palpito123&amp;% |, Then el registro se completa cuando aparece el Boton Complete Setup
+| strFinal |
+| Complete Setup |]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Utest
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Given Daniela desea registrarse en la plataforma Utest
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 1/09/2022 11:47:06 AM</p>
+</div>
+</div>
+</body>
+</html>

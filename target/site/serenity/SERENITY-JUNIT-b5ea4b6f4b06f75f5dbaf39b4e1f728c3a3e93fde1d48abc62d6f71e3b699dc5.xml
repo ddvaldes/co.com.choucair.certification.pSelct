@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Registrar usuario en uTest" skipped="0" tests="1" time="0.53" timestamp="2022-09-01 11:47:02"><testcase name="Utest"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+stepdefinitions.ChoucairUTestStepDefinitions.daniela_desea_registrarse_en_la_plataforma_Utest(ChoucairUTestStepDefinitions.java:19)&#13;
+✽.Daniela desea registrarse en la plataforma Utest(src/test/resources/features/choucair_reg_usuario.feature:8)&#13;
+</system-err></testcase></testsuite>
